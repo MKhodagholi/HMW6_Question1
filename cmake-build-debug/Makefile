@@ -143,6 +143,33 @@ jungle/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/jungle.dir/build.make CMakeFiles/jungle.dir/build
 .PHONY : jungle/fast
 
+Address.o: Address.cpp.o
+
+.PHONY : Address.o
+
+# target to build an object file
+Address.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/jungle.dir/build.make CMakeFiles/jungle.dir/Address.cpp.o
+.PHONY : Address.cpp.o
+
+Address.i: Address.cpp.i
+
+.PHONY : Address.i
+
+# target to preprocess a source file
+Address.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/jungle.dir/build.make CMakeFiles/jungle.dir/Address.cpp.i
+.PHONY : Address.cpp.i
+
+Address.s: Address.cpp.s
+
+.PHONY : Address.s
+
+# target to generate assembly for a file
+Address.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/jungle.dir/build.make CMakeFiles/jungle.dir/Address.cpp.s
+.PHONY : Address.cpp.s
+
 Animal.o: Animal.cpp.o
 
 .PHONY : Animal.o
@@ -314,6 +341,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... jungle"
+	@echo "... Address.o"
+	@echo "... Address.i"
+	@echo "... Address.s"
 	@echo "... Animal.o"
 	@echo "... Animal.i"
 	@echo "... Animal.s"

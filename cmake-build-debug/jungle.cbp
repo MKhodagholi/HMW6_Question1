@@ -82,6 +82,12 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/home/mohammad/AP/HW6/Jungle/Address.cpp">
+			<Option target="jungle"/>
+		</Unit>
+		<Unit filename="/home/mohammad/AP/HW6/Jungle/Address.h">
+			<Option target="jungle"/>
+		</Unit>
 		<Unit filename="/home/mohammad/AP/HW6/Jungle/Animal.cpp">
 			<Option target="jungle"/>
 		</Unit>
