@@ -8,106 +8,108 @@
 		<Option virtualFolders="CMake Files\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="/cygdrive/c/Users/mohammad/CLionProjects/jungle/cmake-build-debug"/>
+				<Option working_dir="/home/mohammad/AP/HW6/Jungle/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="C:/cygwin64/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/mohammad/CLionProjects/jungle/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="C:/cygwin64/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/mohammad/CLionProjects/jungle/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/cygwin64/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/mohammad/CLionProjects/jungle/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/cygwin64/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/mohammad/CLionProjects/jungle/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="rebuild_cache">
-				<Option working_dir="/cygdrive/c/Users/mohammad/CLionProjects/jungle/cmake-build-debug"/>
-				<Option type="4"/>
-				<MakeCommands>
-					<Build command="C:/cygwin64/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/mohammad/CLionProjects/jungle/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="C:/cygwin64/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/mohammad/CLionProjects/jungle/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/cygwin64/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/mohammad/CLionProjects/jungle/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/cygwin64/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/mohammad/CLionProjects/jungle/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="jungle">
-				<Option output="/cygdrive/c/Users/mohammad/CLionProjects/jungle/cmake-build-debug/jungle.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/cygdrive/c/Users/mohammad/CLionProjects/jungle/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/9.3.0/include/c++"/>
-					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/9.3.0/include/c++/x86_64-pc-cygwin"/>
-					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/9.3.0/include/c++/backward"/>
-					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/9.3.0/include"/>
-					<Add directory="/usr/include"/>
-					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/9.3.0/../../../../lib/../include/w32api"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="C:/cygwin64/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/mohammad/CLionProjects/jungle/cmake-build-debug/Makefile&quot;  VERBOSE=1 jungle"/>
-					<CompileFile command="C:/cygwin64/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/mohammad/CLionProjects/jungle/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/cygwin64/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/mohammad/CLionProjects/jungle/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/cygwin64/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/mohammad/CLionProjects/jungle/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="jungle/fast">
-				<Option output="/cygdrive/c/Users/mohammad/CLionProjects/jungle/cmake-build-debug/jungle.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/cygdrive/c/Users/mohammad/CLionProjects/jungle/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/9.3.0/include/c++"/>
-					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/9.3.0/include/c++/x86_64-pc-cygwin"/>
-					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/9.3.0/include/c++/backward"/>
-					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/9.3.0/include"/>
-					<Add directory="/usr/include"/>
-					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/9.3.0/../../../../lib/../include/w32api"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="C:/cygwin64/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/mohammad/CLionProjects/jungle/cmake-build-debug/Makefile&quot;  VERBOSE=1 jungle/fast"/>
-					<CompileFile command="C:/cygwin64/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/mohammad/CLionProjects/jungle/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/cygwin64/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/mohammad/CLionProjects/jungle/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/cygwin64/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/mohammad/CLionProjects/jungle/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j2 -f &quot;/home/mohammad/AP/HW6/Jungle/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/mohammad/AP/HW6/Jungle/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/home/mohammad/AP/HW6/Jungle/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/home/mohammad/AP/HW6/Jungle/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="edit_cache">
-				<Option working_dir="/cygdrive/c/Users/mohammad/CLionProjects/jungle/cmake-build-debug"/>
+				<Option working_dir="/home/mohammad/AP/HW6/Jungle/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="C:/cygwin64/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/mohammad/CLionProjects/jungle/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="C:/cygwin64/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/mohammad/CLionProjects/jungle/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/cygwin64/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/mohammad/CLionProjects/jungle/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/cygwin64/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/mohammad/CLionProjects/jungle/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j2 -f &quot;/home/mohammad/AP/HW6/Jungle/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/mohammad/AP/HW6/Jungle/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/home/mohammad/AP/HW6/Jungle/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/home/mohammad/AP/HW6/Jungle/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/mohammad/AP/HW6/Jungle/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j2 -f &quot;/home/mohammad/AP/HW6/Jungle/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/mohammad/AP/HW6/Jungle/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/home/mohammad/AP/HW6/Jungle/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/home/mohammad/AP/HW6/Jungle/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="jungle">
+				<Option output="/home/mohammad/AP/HW6/Jungle/cmake-build-debug/jungle" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/mohammad/AP/HW6/Jungle/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j2 -f &quot;/home/mohammad/AP/HW6/Jungle/cmake-build-debug/Makefile&quot;  VERBOSE=1 jungle"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/mohammad/AP/HW6/Jungle/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/home/mohammad/AP/HW6/Jungle/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/home/mohammad/AP/HW6/Jungle/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="jungle/fast">
+				<Option output="/home/mohammad/AP/HW6/Jungle/cmake-build-debug/jungle" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/mohammad/AP/HW6/Jungle/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j2 -f &quot;/home/mohammad/AP/HW6/Jungle/cmake-build-debug/Makefile&quot;  VERBOSE=1 jungle/fast"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/mohammad/AP/HW6/Jungle/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/home/mohammad/AP/HW6/Jungle/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/home/mohammad/AP/HW6/Jungle/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/cygdrive/c/Users/mohammad/CLionProjects/jungle/Animal.cpp">
+		<Unit filename="/home/mohammad/AP/HW6/Jungle/Animal.cpp">
 			<Option target="jungle"/>
 		</Unit>
-		<Unit filename="/cygdrive/c/Users/mohammad/CLionProjects/jungle/Animal.h">
+		<Unit filename="/home/mohammad/AP/HW6/Jungle/Animal.h">
 			<Option target="jungle"/>
 		</Unit>
-		<Unit filename="/cygdrive/c/Users/mohammad/CLionProjects/jungle/DomesticAnimal.cpp">
+		<Unit filename="/home/mohammad/AP/HW6/Jungle/DomesticAnimal.cpp">
 			<Option target="jungle"/>
 		</Unit>
-		<Unit filename="/cygdrive/c/Users/mohammad/CLionProjects/jungle/DomesticAnimal.h">
+		<Unit filename="/home/mohammad/AP/HW6/Jungle/DomesticAnimal.h">
 			<Option target="jungle"/>
 		</Unit>
-		<Unit filename="/cygdrive/c/Users/mohammad/CLionProjects/jungle/Jungle.cpp">
+		<Unit filename="/home/mohammad/AP/HW6/Jungle/Jungle.cpp">
 			<Option target="jungle"/>
 		</Unit>
-		<Unit filename="/cygdrive/c/Users/mohammad/CLionProjects/jungle/Jungle.h">
+		<Unit filename="/home/mohammad/AP/HW6/Jungle/Jungle.h">
 			<Option target="jungle"/>
 		</Unit>
-		<Unit filename="/cygdrive/c/Users/mohammad/CLionProjects/jungle/WildAnimal.cpp">
+		<Unit filename="/home/mohammad/AP/HW6/Jungle/WildAnimal.cpp">
 			<Option target="jungle"/>
 		</Unit>
-		<Unit filename="/cygdrive/c/Users/mohammad/CLionProjects/jungle/WildAnimal.h">
+		<Unit filename="/home/mohammad/AP/HW6/Jungle/WildAnimal.h">
 			<Option target="jungle"/>
 		</Unit>
-		<Unit filename="/cygdrive/c/Users/mohammad/CLionProjects/jungle/main.cpp">
+		<Unit filename="/home/mohammad/AP/HW6/Jungle/main.cpp">
 			<Option target="jungle"/>
 		</Unit>
-		<Unit filename="/cygdrive/c/Users/mohammad/CLionProjects/jungle/CMakeLists.txt">
+		<Unit filename="/home/mohammad/AP/HW6/Jungle/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
 	</Project>

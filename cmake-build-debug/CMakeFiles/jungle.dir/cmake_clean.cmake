@@ -4,9 +4,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/jungle.dir/Jungle.cpp.o"
   "CMakeFiles/jungle.dir/WildAnimal.cpp.o"
   "CMakeFiles/jungle.dir/main.cpp.o"
-  "jungle.exe"
+  "jungle"
   "jungle.pdb"
-  "libjungle.dll.a"
 )
 
 # Per-language clean rules from dependency scanning.
