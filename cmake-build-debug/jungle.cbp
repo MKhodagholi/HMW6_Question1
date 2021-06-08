@@ -100,6 +100,9 @@
 		<Unit filename="/home/mohammad/AP/HW6/Jungle/Jungle.h">
 			<Option target="jungle"/>
 		</Unit>
+		<Unit filename="/home/mohammad/AP/HW6/Jungle/Pet.h">
+			<Option target="jungle"/>
+		</Unit>
 		<Unit filename="/home/mohammad/AP/HW6/Jungle/WildAnimal.cpp">
 			<Option target="jungle"/>
 		</Unit>
