@@ -106,6 +106,12 @@
 		<Unit filename="/home/mohammad/AP/HW6/Jungle/Jungle.h">
 			<Option target="jungle"/>
 		</Unit>
+		<Unit filename="/home/mohammad/AP/HW6/Jungle/Person.cpp">
+			<Option target="jungle"/>
+		</Unit>
+		<Unit filename="/home/mohammad/AP/HW6/Jungle/Person.h">
+			<Option target="jungle"/>
+		</Unit>
 		<Unit filename="/home/mohammad/AP/HW6/Jungle/Pet.cpp">
 			<Option target="jungle"/>
 		</Unit>

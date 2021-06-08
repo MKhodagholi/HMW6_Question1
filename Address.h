@@ -9,11 +9,16 @@ private:
     std::string city;
     std::string street;
 public:
-    Address();
-    std::string get_address();
-    void set_address(const std::string&, const std::string&, const std::string&);
+    Address(const std::string&, const std::string&, const std::string&);
+    std::string get_country();
+    std::string get_city();
+    std::string get_street();
+    void set_country(const std::string&);
+    void set_city(const std::string&);
+    void set_street(const std::string&);
     friend std::ostream& operator << (std::ostream&, const Address&);
     friend std::istream& operator >> (std::istream&, Address&);
+    Address& operator = (const Address&);
 
 };
 
