@@ -4,7 +4,7 @@
 #include "Person.h"
 
 class Employee : public Person {
-private:
+protected:
     int hourWork;
     int salaryPerHour;
     int workToDo;
@@ -25,7 +25,7 @@ public:
     int get_workToDo();
     int get_workDone();
     virtual bool validate();
-    int calculateSalary();
+    virtual int calculateSalary();
     float efficiency();
 };
 

@@ -94,6 +94,12 @@
 		<Unit filename="/home/mohammad/AP/HW6/Jungle/Animal.h">
 			<Option target="jungle"/>
 		</Unit>
+		<Unit filename="/home/mohammad/AP/HW6/Jungle/Boss.cpp">
+			<Option target="jungle"/>
+		</Unit>
+		<Unit filename="/home/mohammad/AP/HW6/Jungle/Boss.h">
+			<Option target="jungle"/>
+		</Unit>
 		<Unit filename="/home/mohammad/AP/HW6/Jungle/DomesticAnimal.cpp">
 			<Option target="jungle"/>
 		</Unit>
