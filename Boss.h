@@ -16,9 +16,10 @@ public:
     friend std::istream& operator >> (std::istream&, Boss&);
     // getter and setter
     void set_numberOfEmplyee(int);
-    int get_numberOfEmplyee(int);
+    int get_numberOfEmplyee();
     // calcutateSalary = Hour Works * Salary Per Hour / (WorkDone / Work To Do)
     virtual int calculateSalary();
+    Boss& operator = (const Boss&);
 };
 
 

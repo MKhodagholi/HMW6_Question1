@@ -23,7 +23,7 @@ void Boss::set_numberOfEmplyee(int numberOfEmployee) {
     this->numberOfEmployee = numberOfEmployee;
 }
 
-int Boss::get_numberOfEmplyee(int) {
+int Boss::get_numberOfEmplyee() {
     return numberOfEmployee;
 }
 
@@ -32,5 +32,7 @@ int Boss::calculateSalary() {
     salary *= float((float)(workDone) / float(workToDo)) * 1.15;
     return salary;
 }
+
+
 
 

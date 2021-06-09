@@ -224,6 +224,33 @@ Boss.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/jungle.dir/build.make CMakeFiles/jungle.dir/Boss.cpp.s
 .PHONY : Boss.cpp.s
 
+Company.o: Company.cpp.o
+
+.PHONY : Company.o
+
+# target to build an object file
+Company.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/jungle.dir/build.make CMakeFiles/jungle.dir/Company.cpp.o
+.PHONY : Company.cpp.o
+
+Company.i: Company.cpp.i
+
+.PHONY : Company.i
+
+# target to preprocess a source file
+Company.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/jungle.dir/build.make CMakeFiles/jungle.dir/Company.cpp.i
+.PHONY : Company.cpp.i
+
+Company.s: Company.cpp.s
+
+.PHONY : Company.s
+
+# target to generate assembly for a file
+Company.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/jungle.dir/build.make CMakeFiles/jungle.dir/Company.cpp.s
+.PHONY : Company.cpp.s
+
 DomesticAnimal.o: DomesticAnimal.cpp.o
 
 .PHONY : DomesticAnimal.o
@@ -431,6 +458,9 @@ help:
 	@echo "... Boss.o"
 	@echo "... Boss.i"
 	@echo "... Boss.s"
+	@echo "... Company.o"
+	@echo "... Company.i"
+	@echo "... Company.s"
 	@echo "... DomesticAnimal.o"
 	@echo "... DomesticAnimal.i"
 	@echo "... DomesticAnimal.s"
