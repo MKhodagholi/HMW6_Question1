@@ -7,10 +7,14 @@
 class Person {
 private:
     std::string name;
-    std::string id;
     Address address;
+    std::string id;
+
+
+
 
 public:
+    Person();
     Person(const std::string&, const std::string&, const Address&);
     Person(const Person&);
     void set_name(const std::string&);

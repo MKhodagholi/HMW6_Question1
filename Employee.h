@@ -11,21 +11,22 @@ private:
     int workDone;
 public:
     Employee();
+    Employee(int, int, int, int);
     Employee(const Employee&);
     friend std::ostream& operator << (std::ostream&, const Employee&);
-    friend std::istream& operator >> (std::istream&, const Employee&);
+    friend std::istream& operator >> (std::istream&, Employee&);
     Employee& operator = (const Employee&);
-    void set_hourWork();
-    void set_salaryPerHour();
-    void set_workToDo();
-    void set_workDone();
+    void set_hourWork(int);
+    void set_salaryPerHour(int);
+    void set_workToDo(int);
+    void set_workDone(int);
     int get_hourWork();
     int get_salaryPerHour();
     int get_workToDo();
     int get_workDone();
-    virtual bool validate(const std::string&);
+    virtual bool validate();
     int calculateSalary();
-    int efficiency();
+    float efficiency();
 };
 
 

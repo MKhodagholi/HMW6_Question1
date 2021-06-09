@@ -1,6 +1,6 @@
 #include "Person.h"
 
-
+Person::Person() : name(""), id(""), address() {}
 
 Person::Person(const std::string &name, const std::string &id, const Address &address) : name(name), id(id), address(address) {
     if (!validate()) {
