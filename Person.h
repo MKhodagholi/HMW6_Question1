@@ -20,10 +20,12 @@ public:
     std::string get_id();
     Address get_address();
     void set_address(const Address&);
-    friend std::ostream& operator << (std::ostream &print, Person &obj);
-    friend std::istream& operator >> (std::istream &input, Person &obj);
+    friend std::ostream& operator << (std::ostream&, Person&);
+    friend std::istream& operator >> (std::istream&, Person&);
     Person& operator = (const Person&);
-    bool validate(const std::string&);
+    virtual bool validate();
+
+
 };
 
 

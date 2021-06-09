@@ -1,5 +1,7 @@
 #include "Address.h"
 
+Address::Address() : country(""), city(""), street("") {}
+
 Address::Address(const std::string &country, const std::string &city, const std::string &street) :
 country(country), city(city), street(street) {}
 
