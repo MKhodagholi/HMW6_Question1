@@ -3,7 +3,7 @@
 #include "Employee.h"
 #include <iostream>
 
-class Boss : Employee {
+class Boss : public Employee {
 private:
     int numberOfEmployee;
 public:

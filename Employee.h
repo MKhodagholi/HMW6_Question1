@@ -19,7 +19,7 @@ public:
     // print and input
     friend std::ostream& operator << (std::ostream&, const Employee&);
     friend std::istream& operator >> (std::istream&, Employee&);
-    Employee& operator = (const Employee&);
+    Employee operator = (const Employee&);
     // getter and setter
     void set_hourWork(int);
     void set_salaryPerHour(int);

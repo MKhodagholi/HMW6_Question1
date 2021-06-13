@@ -32,7 +32,7 @@ std::istream& operator >> (std::istream &input, Employee &obj) {
     std::cout << " Enter the Work Done: "; input >> obj.workDone;
 }
 
-Employee& Employee::operator = (const Employee &obj) {
+Employee Employee::operator = (const Employee &obj) {
     hourWork = obj.hourWork;
     salaryPerHour = obj.salaryPerHour;
     workToDo = obj.workToDo;

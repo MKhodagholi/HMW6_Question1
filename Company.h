@@ -23,6 +23,13 @@ public:
     int get_budget();
     Boss* get_boss();
     Employee** get_employee();
+    Employee maxEfficiency();
+    double averageEfficiency();
+    void executionOfJustice();
+    void gift();
+    void payForService();
+    bool isEnoughBudget();
+    void write_file();
 };
 
 

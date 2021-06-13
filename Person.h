@@ -19,11 +19,10 @@ public:
     Person(const Person&);
     void set_name(const std::string&);
     void set_id(const std::string&);
-    void set_address(const std::string&);
+    void set_address(const Address&);
     std::string get_name();
     std::string get_id();
     Address get_address();
-    void set_address(const Address&);
     friend std::ostream& operator << (std::ostream&, Person&);
     friend std::istream& operator >> (std::istream&, Person&);
     Person& operator = (const Person&);

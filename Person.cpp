@@ -47,7 +47,6 @@ std::ostream& operator << (std::ostream &print, Person &obj) {
 }
 
 std::istream& operator >> (std::istream &input, Person &obj) {
-
     std::cout << "name is: "; input >> obj.name;
     std::cout <<  "id is: "; input >> obj.id;
     std::cout <<  "address is: "; input >> obj.address;
@@ -90,3 +89,4 @@ bool Person::validate() {
     }
 
 }
+
