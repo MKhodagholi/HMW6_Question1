@@ -2,7 +2,7 @@
 
 Address::Address() : country(""), city(""), street("") {}
 
-Address::Address(const std::string &country, const std::string &city, const std::string &street) :
+Address::Address(std::string country, std::string city, std::string street) :
 country(country), city(city), street(street) {}
 
 std::string Address::get_country() {
@@ -31,12 +31,11 @@ void Address::set_street(const std::string &street) {
 
 
 std::ostream& operator << (std::ostream &print, const Address &obj) {
-    print << obj.country << ", " << obj.city << ", " << obj.street;
+    print << "Country: " << obj.country << " City: " << obj.city << " Street is: " << obj.street;
     return print;
 }
 
 std::istream& operator >> (std::istream &input, Address &obj) {
-    std::cout << "Enter the Address:[1.Country, 2.City, 3.Street]";
     input >> obj.country >> obj.city >> obj.street;
     return input;
 }

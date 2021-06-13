@@ -10,7 +10,7 @@ private:
     std::string street;
 public:
     Address();
-    Address(const std::string&, const std::string&, const std::string&);
+    Address(std::string, std::string, std::string);
     std::string get_country();
     std::string get_city();
     std::string get_street();

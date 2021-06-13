@@ -30,6 +30,7 @@ public:
     void payForService();
     bool isEnoughBudget();
     void write_file();
+    void sort_list_of_name(Employee **&);
 };
 
 

@@ -14,12 +14,12 @@ public:
     // constructor
     Employee();
     // hourWork, SalaryPerHour ...
-    Employee(int, int, int, int);
+    Employee(std::string, std::string, Address, int, int, int, int);
     Employee(const Employee&);
     // print and input
-    friend std::ostream& operator << (std::ostream&, const Employee&);
+    friend std::ostream& operator << (std::ostream&, Employee&);
     friend std::istream& operator >> (std::istream&, Employee&);
-    Employee operator = (const Employee&);
+    Employee& operator = (const Employee&);
     // getter and setter
     void set_hourWork(int);
     void set_salaryPerHour(int);

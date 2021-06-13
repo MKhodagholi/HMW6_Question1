@@ -2,7 +2,7 @@
 
 Person::Person() : name(""), id(""), address() {}
 
-Person::Person(const std::string &name, const std::string &id, const Address &address) : name(name), id(id), address(address) {
+Person::Person(std::string name, std::string id, Address address) : name(name), id(id), address(address) {
     if (!validate()) {
         std::cout << "Invalid id";
         exit(0);
@@ -40,16 +40,16 @@ void Person::set_address(const Address &address) {
 }
 
 std::ostream& operator << (std::ostream &print, Person &obj) {
-    print << "name is: " << obj.name;
-    print << " id is: " << obj.id;
-    print << " address is: " << obj.address;
+    print << "Name is: " << obj.name;
+    print << " ID is: " << obj.id << std::endl;
+    print << obj.address;
     return print;
 }
 
 std::istream& operator >> (std::istream &input, Person &obj) {
-    std::cout << "name is: "; input >> obj.name;
-    std::cout <<  "id is: "; input >> obj.id;
-    std::cout <<  "address is: "; input >> obj.address;
+    input >> obj.name;
+    input >> obj.id;
+    input >> obj.address;
     return input;
 }
 

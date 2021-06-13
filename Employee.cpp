@@ -1,9 +1,10 @@
 #include "Employee.h"
 
 
-Employee::Employee() : Person(*this), hourWork(0), salaryPerHour(0), workToDo(0), workDone(0) {}
+Employee::Employee() : Person(), hourWork(0), salaryPerHour(0), workToDo(0), workDone(0) {}
 
-Employee::Employee(int hourWork, int salaryPerHour, int workToDo, int workDone) : Person(*this) {
+Employee::Employee(std::string name, std::string id, Address address, int hourWork, int salaryPerHour, int workToDo, int workDone)
+: Person(name, id, address) {
     this->hourWork = hourWork;
     this->salaryPerHour = salaryPerHour;
     this->workToDo = workToDo;
@@ -17,7 +18,8 @@ Employee::Employee(const Employee &obj) : Person(obj) {
     workDone = obj.workDone;
 }
 
-std::ostream& operator << (std::ostream &print, const Employee &obj) {
+std::ostream& operator << (std::ostream &print, Employee &obj) {
+    print << static_cast<Person &>(obj);
     print << "Hour Work: " << obj.hourWork;
     print << " Salary Per Hour: " << obj.salaryPerHour;
     print << " Work To Do: " << obj.workToDo;
@@ -26,13 +28,16 @@ std::ostream& operator << (std::ostream &print, const Employee &obj) {
 }
 
 std::istream& operator >> (std::istream &input, Employee &obj) {
-    std::cout << "Enter the Hour Work: "; input >> obj.hourWork;
-    std::cout << " Enter the Salary Per Hour: "; input >> obj.salaryPerHour;
-    std::cout << " Enter the Work To Do: "; input >> obj.workToDo;
-    std::cout << " Enter the Work Done: "; input >> obj.workDone;
+
+    input >> static_cast<Person &>(obj);
+    input >> obj.hourWork;
+    input >> obj.salaryPerHour;
+    input >> obj.workToDo;
+    input >> obj.workDone;
 }
 
-Employee Employee::operator = (const Employee &obj) {
+Employee& Employee::operator = (const Employee &obj) {
+    Person::operator = (obj);
     hourWork = obj.hourWork;
     salaryPerHour = obj.salaryPerHour;
     workToDo = obj.workToDo;
@@ -83,6 +88,6 @@ int Employee::calculateSalary() {
 }
 
 float Employee::efficiency() {
-    float randeman = float((float)(workDone) / float(workToDo)) / (float)hourWork;
+    float randeman = float((float)(workDone) / float(workToDo)) / (float)hourWork * 100;
     return randeman;
 }

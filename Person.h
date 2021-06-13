@@ -15,7 +15,7 @@ private:
 
 public:
     Person();
-    Person(const std::string&, const std::string&, const Address&);
+    Person(std::string, std::string , Address);
     Person(const Person&);
     void set_name(const std::string&);
     void set_id(const std::string&);
