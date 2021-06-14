@@ -23,7 +23,7 @@ public:
     int get_budget();
     Boss* get_boss();
     Employee** get_employee();
-    Employee maxEfficiency();
+    Employee& maxEfficiency();
     double averageEfficiency();
     void executionOfJustice();
     void gift();

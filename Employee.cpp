@@ -24,6 +24,7 @@ std::ostream& operator << (std::ostream &print, Employee &obj) {
     print << " Salary Per Hour: " << obj.salaryPerHour;
     print << " Work To Do: " << obj.workToDo;
     print << " Work Done: " << obj.workDone;
+    print << std::endl;
     return print;
 }
 
@@ -78,7 +79,37 @@ int Employee::get_workDone() {
 }
 
 bool Employee::validate() {
-
+    int length = id.length();
+    if (length != 10)
+        return false;
+    else {
+        if (id[0] - '0' == 8) {
+            if (id[1] - '0' <= 3 && id[1] - '0' >= 0)
+                return false;
+            else {
+                if (id[2] != '*')
+                    return false;
+                for (int i = 5; i < 10; i++) {
+                    if (id[i] >= 4 && id[i] <= 6)
+                        return false;
+                }
+                return true;
+            }
+        }
+        else if (id[0] - '0' == 9){
+            if (id[1] - '0' >= 0 && id[1] - '0' < 10) {
+                if (id[2] != '*')
+                    return false;
+                for (int i = 5; i < 10; i++) {
+                    if (id[i] >= 4 && id[i] <= 6)
+                        return false;
+                }
+                return true;
+            }
+            return false;
+        }
+        return false;
+    }
 }
 
 int Employee::calculateSalary() {

@@ -14,20 +14,10 @@ string
 
 /home/mohammad/AP/HW6/Jungle/Animal.h
 
-/home/mohammad/AP/HW6/Jungle/Boss.cpp
-Boss.h
-/home/mohammad/AP/HW6/Jungle/Boss.h
-
 /home/mohammad/AP/HW6/Jungle/Boss.h
 Employee.h
 /home/mohammad/AP/HW6/Jungle/Employee.h
 iostream
--
-
-/home/mohammad/AP/HW6/Jungle/Company.cpp
-Company.h
-/home/mohammad/AP/HW6/Jungle/Company.h
-fstream
 -
 
 /home/mohammad/AP/HW6/Jungle/Company.h
@@ -36,21 +26,11 @@ Boss.h
 iostream
 -
 
-/home/mohammad/AP/HW6/Jungle/Employee.cpp
-Employee.h
-/home/mohammad/AP/HW6/Jungle/Employee.h
-
 /home/mohammad/AP/HW6/Jungle/Employee.h
 iostream
 -
 Person.h
 /home/mohammad/AP/HW6/Jungle/Person.h
-
-/home/mohammad/AP/HW6/Jungle/Person.cpp
-Person.h
-/home/mohammad/AP/HW6/Jungle/Person.h
-utility
--
 
 /home/mohammad/AP/HW6/Jungle/Person.h
 string

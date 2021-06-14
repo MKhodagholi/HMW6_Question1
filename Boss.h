@@ -12,7 +12,7 @@ public:
     Boss(std::string, std::string, Address, int, int, int, int, int);
     Boss(const Boss&);
     // print and input
-    friend std::ostream& operator << (std::ostream&, const Boss&);
+    friend std::ostream& operator << (std::ostream&, Boss&);
     friend std::istream& operator >> (std::istream&, Boss&);
     // getter and setter
     void set_numberOfEmployee(int);

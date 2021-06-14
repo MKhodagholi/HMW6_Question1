@@ -1,6 +1,6 @@
 #include "Boss.h"
 
-Boss::Boss() : numberOfEmployee(0) {}
+Boss::Boss()  : Employee(), numberOfEmployee(0) {}
 
 Boss::Boss(std::string name, std::string id, Address address, int hourWork, int salaryPerHour, int workToDo, int workDone, int n)
 : Employee(name, id, address, hourWork, salaryPerHour, workToDo, workDone), numberOfEmployee(n) {}
@@ -10,11 +10,10 @@ Boss::Boss(const Boss &obj) : Employee(obj){
 }
 
 
-std::ostream& operator << (std::ostream &print, const Boss &obj) {
-    print << static_cast<Employee&>((Employee &) obj);
-    print << "Hour-Work: " << obj.hourWork << " Hour-Work-To-Do: " << obj.workToDo;
-    print << "Hour-Work-Done: " << obj.workDone << " Salary-Per-Hour: " << obj.salaryPerHour;
-    print << " And Have " << obj.numberOfEmployee << " Employee";
+std::ostream& operator << (std::ostream &print, Boss &obj) {
+    print << static_cast<Employee&>(obj);
+    print << "Have " << obj.numberOfEmployee;
+    print << std::endl;
     return print;
 }
 

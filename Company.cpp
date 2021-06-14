@@ -2,10 +2,10 @@
 #include <fstream>
 
 Company::Company() : budget(0){
-    boss = new Boss;
+    boss = new Boss();
     employee = new Employee*[boss->get_numberOfEmployee()];
     for (int i = 0; i < boss->get_numberOfEmployee(); i++) {
-        employee[i] = new Employee[1];
+        employee[i] = new Employee();
     }
 }
 
@@ -14,8 +14,7 @@ Company::Company(int budget, Boss *boss, Employee **employee) {
     this->boss = new Boss(*boss);
     employee = new Employee*[boss->get_numberOfEmployee()];
     for (int i = 0; i < boss->get_numberOfEmployee(); i++) {
-        employee[i] = new Employee[1];
-        this->employee[i][0] = employee[i][0];
+        employee[i] = new Employee(employee[i][0]);
     }
 }
 
@@ -25,8 +24,7 @@ Company::Company(const Company &obj) {
     this->boss = obj.boss;
     employee = new Employee*[boss->get_numberOfEmployee()];
     for (int i = 0; i < boss->get_numberOfEmployee(); i++) {
-        employee[i] = new Employee[1];
-        this->employee[i][0] = employee[i][0];
+        employee[i] = new Employee(employee[i][0]);
     }
 }
 
@@ -92,7 +90,7 @@ Employee** Company::get_employee() {
 }
 
 
-Employee Company::maxEfficiency() {
+Employee& Company::maxEfficiency() {
     double max_efficiency = employee[0][0].efficiency();
     int num_employee = 0;
     for (int i = 1; i < boss->get_numberOfEmployee(); i++) {
