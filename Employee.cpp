@@ -1,10 +1,11 @@
 #include "Employee.h"
-
+#include <iomanip>
 
 Employee::Employee() : Person(), hourWork(0), salaryPerHour(0), workToDo(0), workDone(0) {}
 
 Employee::Employee(std::string name, std::string id, Address address, int hourWork, int salaryPerHour, int workToDo, int workDone)
 : Person(name, id, address) {
+    Employee::validate();
     this->hourWork = hourWork;
     this->salaryPerHour = salaryPerHour;
     this->workToDo = workToDo;
@@ -24,6 +25,8 @@ std::ostream& operator << (std::ostream &print, Employee &obj) {
     print << " Salary Per Hour: " << obj.salaryPerHour;
     print << " Work To Do: " << obj.workToDo;
     print << " Work Done: " << obj.workDone;
+    print << " Salary: " << obj.calculateSalary();
+    print << std::setprecision(2) << " Efficiency: " << obj.efficiency();
     print << std::endl;
     return print;
 }

@@ -12,7 +12,7 @@ Boss::Boss(const Boss &obj) : Employee(obj){
 
 std::ostream& operator << (std::ostream &print, Boss &obj) {
     print << static_cast<Employee&>(obj);
-    print << "Have " << obj.numberOfEmployee;
+    print << "Have " << obj.numberOfEmployee << " Employee";
     print << std::endl;
     return print;
 }

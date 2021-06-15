@@ -1,0 +1,40 @@
+Name is: Hosein ID is: 84*ON20232
+Country: Iran City: Tehran Street is: ShahrakeDarya
+Hour Work: 170 Salary Per Hour: 1500 Work To Do: 120 Work Done: 120 Salary: 255000 Efficiency: 0.59
+------------------------------------------------
+Name is: Hasan ID is: 87*HM20233
+Country: Iran City: Esfahan Street is: 33Pol
+Hour Work: 200 Salary Per Hour: 4000 Work To Do: 200 Work Done: 200 Salary: 800000 Efficiency: 0.5
+------------------------------------------------
+Name is: Ali ID is: 89*LI20231
+Country: Iran City: Karaj Street is: Shabnam
+Hour Work: 120 Salary Per Hour: 1000 Work To Do: 80 Work Done: 70 Salary: 105000 Efficiency: 0.73
+------------------------------------------------
+Name is: Navid ID is: 90*VD20273
+Country: Afghanistan City: Kabul Street is: 14Shomali
+Hour Work: 120 Salary Per Hour: 4000 Work To Do: 100 Work Done: 90 Salary: 432000 Efficiency: 0.75
+------------------------------------------------
+Name is: Ahmad ID is: 95*HM20271
+Country: Afghanistan City: Kabul Street is: 12Shomali
+Hour Work: 150 Salary Per Hour: 3000 Work To Do: 120 Work Done: 100 Salary: 375000 Efficiency: 0.56
+------------------------------------------------
+Name is: Taeb ID is: 95*EB20238
+Country: Afghanistan City: Kabul Street is: 18Gharbi
+Hour Work: 135 Salary Per Hour: 2000 Work To Do: 90 Work Done: 30 Salary: 90000 Efficiency: 0.25
+------------------------------------------------
+Name is: Kabir ID is: 96*BR20239
+Country: Afghanistan City: Kabul Street is: 27Sharghi
+Hour Work: 100 Salary Per Hour: 5000 Work To Do: 120 Work Done: 100 Salary: 416666 Efficiency: 0.83
+------------------------------------------------
+Name is: Teymor ID is: 97*MR20272
+Country: Afghanistan City: Kabul Street is: 13Shomali
+Hour Work: 180 Salary Per Hour: 7000 Work To Do: 180 Work Done: 180 Salary: 1260000 Efficiency: 0.56
+------------------------------------------------
+Name is: Hamed ID is: 99*MD20237
+Country: Iran City: Shiraz Street is: PoleHafez
+Hour Work: 50 Salary Per Hour: 700 Work To Do: 50 Work Done: 50 Salary: 35000 Efficiency: 2
+------------------------------------------------
+Name is: Mohammad ID is: 99*HM20230
+Country: Iran City: Tehran Street is: Tafresh
+Hour Work: 100 Salary Per Hour: 2000 Work To Do: 70 Work Done: 30 Salary: 85714 Efficiency: 0.43
+------------------------------------------------

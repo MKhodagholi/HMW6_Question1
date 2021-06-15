@@ -12,12 +12,18 @@ iostream
 string
 -
 
-/home/mohammad/AP/HW6/Jungle/Animal.h
-
 /home/mohammad/AP/HW6/Jungle/Boss.h
 Employee.h
 /home/mohammad/AP/HW6/Jungle/Employee.h
 iostream
+-
+
+/home/mohammad/AP/HW6/Jungle/Company.cpp
+Company.h
+/home/mohammad/AP/HW6/Jungle/Company.h
+fstream
+-
+cstring
 -
 
 /home/mohammad/AP/HW6/Jungle/Company.h
@@ -39,12 +45,4 @@ Address.h
 /home/mohammad/AP/HW6/Jungle/Address.h
 iostream
 -
-
-/home/mohammad/AP/HW6/Jungle/main.cpp
-iostream
--
-Animal.h
-/home/mohammad/AP/HW6/Jungle/Animal.h
-Company.h
-/home/mohammad/AP/HW6/Jungle/Company.h
 

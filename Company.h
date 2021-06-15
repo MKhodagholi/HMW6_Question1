@@ -6,8 +6,8 @@
 class Company {
 private:
     int budget;
-    Boss *boss;
-    Employee **employee;
+    Boss *boss{};
+    Employee **employee{};
 public:
     // constructor and destructor
     Company();
@@ -15,8 +15,8 @@ public:
     Company(const Company&);
     ~Company();
     // print and input operator
-    friend std::ostream& operator << (std::ostream&, const Company&);
-    friend std::istream& operator << (std::istream&, Company&);
+    friend std::ostream& operator << (std::ostream&, Company&);
+    friend std::istream& operator >> (std::istream&, Company&);
     void set_budget(int);
     void set_boss(Boss*);
     void set_employee(Employee**);
@@ -30,7 +30,6 @@ public:
     void payForService();
     bool isEnoughBudget();
     void write_file();
-    void sort_list_of_name(Employee **&);
 };
 
 

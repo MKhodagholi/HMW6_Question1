@@ -29,7 +29,7 @@ public:
     int get_salaryPerHour();
     int get_workToDo();
     int get_workDone();
-    // this function chech if the id is valid or isn`t
+    // this function check if the id is valid or isn`t
     virtual bool validate();
     virtual int calculateSalary();
     // this function

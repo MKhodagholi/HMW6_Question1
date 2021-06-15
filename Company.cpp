@@ -1,5 +1,6 @@
 #include "Company.h"
 #include <fstream>
+#include <cstring>
 
 Company::Company() : budget(0){
     boss = new Boss();
@@ -7,54 +8,67 @@ Company::Company() : budget(0){
     for (int i = 0; i < boss->get_numberOfEmployee(); i++) {
         employee[i] = new Employee();
     }
+    gift();
+    payForService();
+    executionOfJustice();
 }
 
-Company::Company(int budget, Boss *boss, Employee **employee) {
-    this->budget = budget;
-    this->boss = new Boss(*boss);
+Company::Company(int budget, Boss *bos, Employee **emplo) : budget(budget){
+    boss = new Boss(*bos);
     employee = new Employee*[boss->get_numberOfEmployee()];
     for (int i = 0; i < boss->get_numberOfEmployee(); i++) {
-        employee[i] = new Employee(employee[i][0]);
+        employee[i] = new Employee(emplo[i][0]);
     }
 }
 
 Company::Company(const Company &obj) {
     budget = obj.budget;
-    boss = new Boss;
-    this->boss = obj.boss;
+    boss = new Boss(*obj.boss);
     employee = new Employee*[boss->get_numberOfEmployee()];
     for (int i = 0; i < boss->get_numberOfEmployee(); i++) {
-        employee[i] = new Employee(employee[i][0]);
+        employee[i] = new Employee(obj.employee[i][0]);
     }
 }
 
 Company::~Company() {
-    delete boss;
     for (int i = 0; i < boss->get_numberOfEmployee(); i++) {
         delete employee[i];
     }
     delete [] employee;
+    delete boss;
 }
 
-std::ostream& operator << (std::ostream &print, const Company &obj) {
-    print << "This Company has " << obj.boss->get_numberOfEmployee();
-    print << " and " << obj.budget << " budget";
+std::ostream& operator << (std::ostream &print, Company &obj) {
+    for (int i = 0; i < obj.boss->get_numberOfEmployee(); i++) {
+        int num = i;
+        std::string min_num = obj.employee[i][0].get_id().substr(0, 2);
+        for (int j = i; j < obj.boss->get_numberOfEmployee(); j++) {
+            if (min_num > obj.employee[j][0].get_id().substr(0, 2)) {
+                min_num = obj.employee[j][0].get_id().substr(0, 2);
+                num = j;
+            }
+            else if (min_num == obj.employee[j][0].get_id().substr(0, 2)) {
+                if (obj.employee[j][0].get_name() < obj.employee[num][0].get_name())
+                    num = j;
+            }
+        }
+        Employee temp = obj.employee[i][0];
+        obj.employee[i][0] = obj.employee[num][0];
+        obj.employee[num][0] = temp;
+        print << obj.employee[i][0];
+        print << "------------------------------------------------\n";
+    }
     return print;
 }
 
 std::istream& operator >> (std::istream &input, Company &obj) {
-    std::cout << "Enter the Boss: ";
-    Boss temp;
-    input >> temp;
-    obj.set_boss(&temp);
+    input >> *obj.boss;
     std::cout << "Please enter the number of the employee: ";
     int num;
     input >> num;
-    Employee employee;
     for (int i = 0; i < num; i++) {
-        input >> employee;
+        input >> obj.employee[i][0];
     }
-//    obj.boss->set_numberOfEmplyee(num);
     std::cout << "Enter the budget: ";
     input >> num;
     obj.set_budget(num);
@@ -116,19 +130,8 @@ double Company::averageEfficiency() {
 void Company::executionOfJustice() {
     if (boss->efficiency() < 0.4) {
         Boss *temp1 = boss;
-        Employee temp = maxEfficiency();
-        Employee *pTemp = &temp;
-        Boss *result = dynamic_cast<Boss *>(pTemp);
-        boss = result;
-        double max_efficiency = employee[0][0].efficiency();
-        int num_employee = 0;
-        for (int i = 1; i < boss->get_numberOfEmployee(); i++) {
-            if (employee[i][0].efficiency() >= max_efficiency) {
-                max_efficiency = employee[i][0].efficiency();
-                num_employee = i;
-            }
-        }
-/*        employee[num_employee][0] = dynamic_cast<Employee *>(temp1);*/
+        boss = dynamic_cast<Boss *>(&maxEfficiency());
+        maxEfficiency() = *temp1;
     }
 }
 
@@ -139,16 +142,14 @@ void Company::gift() {
             employee[i][0].set_hourWork(hourWork);
         }
     }
-    int hourWork_maxEff = maxEfficiency().get_hourWork() + 10;
-//    maxEfficiency().se;
+    maxEfficiency().set_hourWork((maxEfficiency().get_hourWork() + 10));
 }
 
-
+// if employee is uot of Tehran he get 7 hour for gift
 void Company::payForService() {
     for (int i = 0; i < boss->get_numberOfEmployee(); i++) {
         if (employee[i][0].get_address().get_city() != "Tehran") {
-            int hourWork = employee[i][0].get_hourWork() + 7;
-            employee[i][0].set_hourWork(hourWork);
+            employee[i][0].set_hourWork((employee[i][0].get_hourWork() + 7));
         }
     }
 }
@@ -165,15 +166,7 @@ bool Company::isEnoughBudget() {
 
 void Company::write_file() {
     std::ofstream writer("info_employee.txt");
-    for (int i = 0; i < boss->get_numberOfEmployee(); i++) {
-        writer << employee[i][0].get_name() << "\t";
-        writer << employee[i][0].get_id() << "\t";
-        writer << employee[i][0].efficiency() << "\t";
-        writer << employee[i][0].calculateSalary() << std::endl;
-    }
-}
 
-/*
-void sort_list_of_name(Company obj) {
-    for (int i < 0; i < )
-}*/
+    writer << *this;
+    writer.close();
+}
