@@ -82,10 +82,28 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/home/mohammad/AP/HW6/Jungle/Address.cpp">
+			<Option target="jungle"/>
+		</Unit>
+		<Unit filename="/home/mohammad/AP/HW6/Jungle/Address.h">
+			<Option target="jungle"/>
+		</Unit>
 		<Unit filename="/home/mohammad/AP/HW6/Jungle/Animal.cpp">
 			<Option target="jungle"/>
 		</Unit>
 		<Unit filename="/home/mohammad/AP/HW6/Jungle/Animal.h">
+			<Option target="jungle"/>
+		</Unit>
+		<Unit filename="/home/mohammad/AP/HW6/Jungle/Boss.cpp">
+			<Option target="jungle"/>
+		</Unit>
+		<Unit filename="/home/mohammad/AP/HW6/Jungle/Boss.h">
+			<Option target="jungle"/>
+		</Unit>
+		<Unit filename="/home/mohammad/AP/HW6/Jungle/Company.cpp">
+			<Option target="jungle"/>
+		</Unit>
+		<Unit filename="/home/mohammad/AP/HW6/Jungle/Company.h">
 			<Option target="jungle"/>
 		</Unit>
 		<Unit filename="/home/mohammad/AP/HW6/Jungle/DomesticAnimal.cpp">
@@ -94,10 +112,28 @@
 		<Unit filename="/home/mohammad/AP/HW6/Jungle/DomesticAnimal.h">
 			<Option target="jungle"/>
 		</Unit>
+		<Unit filename="/home/mohammad/AP/HW6/Jungle/Employee.cpp">
+			<Option target="jungle"/>
+		</Unit>
+		<Unit filename="/home/mohammad/AP/HW6/Jungle/Employee.h">
+			<Option target="jungle"/>
+		</Unit>
 		<Unit filename="/home/mohammad/AP/HW6/Jungle/Jungle.cpp">
 			<Option target="jungle"/>
 		</Unit>
 		<Unit filename="/home/mohammad/AP/HW6/Jungle/Jungle.h">
+			<Option target="jungle"/>
+		</Unit>
+		<Unit filename="/home/mohammad/AP/HW6/Jungle/Person.cpp">
+			<Option target="jungle"/>
+		</Unit>
+		<Unit filename="/home/mohammad/AP/HW6/Jungle/Person.h">
+			<Option target="jungle"/>
+		</Unit>
+		<Unit filename="/home/mohammad/AP/HW6/Jungle/Pet.cpp">
+			<Option target="jungle"/>
+		</Unit>
+		<Unit filename="/home/mohammad/AP/HW6/Jungle/Pet.h">
 			<Option target="jungle"/>
 		</Unit>
 		<Unit filename="/home/mohammad/AP/HW6/Jungle/WildAnimal.cpp">

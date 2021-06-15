@@ -142,13 +142,97 @@ CMakeFiles/jungle.dir/Jungle.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/jungle.dir/Jungle.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mohammad/AP/HW6/Jungle/Jungle.cpp -o CMakeFiles/jungle.dir/Jungle.cpp.s
 
+CMakeFiles/jungle.dir/Pet.cpp.o: CMakeFiles/jungle.dir/flags.make
+CMakeFiles/jungle.dir/Pet.cpp.o: ../Pet.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mohammad/AP/HW6/Jungle/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/jungle.dir/Pet.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/jungle.dir/Pet.cpp.o -c /home/mohammad/AP/HW6/Jungle/Pet.cpp
+
+CMakeFiles/jungle.dir/Pet.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/jungle.dir/Pet.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mohammad/AP/HW6/Jungle/Pet.cpp > CMakeFiles/jungle.dir/Pet.cpp.i
+
+CMakeFiles/jungle.dir/Pet.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/jungle.dir/Pet.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mohammad/AP/HW6/Jungle/Pet.cpp -o CMakeFiles/jungle.dir/Pet.cpp.s
+
+CMakeFiles/jungle.dir/Address.cpp.o: CMakeFiles/jungle.dir/flags.make
+CMakeFiles/jungle.dir/Address.cpp.o: ../Address.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mohammad/AP/HW6/Jungle/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/jungle.dir/Address.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/jungle.dir/Address.cpp.o -c /home/mohammad/AP/HW6/Jungle/Address.cpp
+
+CMakeFiles/jungle.dir/Address.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/jungle.dir/Address.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mohammad/AP/HW6/Jungle/Address.cpp > CMakeFiles/jungle.dir/Address.cpp.i
+
+CMakeFiles/jungle.dir/Address.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/jungle.dir/Address.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mohammad/AP/HW6/Jungle/Address.cpp -o CMakeFiles/jungle.dir/Address.cpp.s
+
+CMakeFiles/jungle.dir/Person.cpp.o: CMakeFiles/jungle.dir/flags.make
+CMakeFiles/jungle.dir/Person.cpp.o: ../Person.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mohammad/AP/HW6/Jungle/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/jungle.dir/Person.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/jungle.dir/Person.cpp.o -c /home/mohammad/AP/HW6/Jungle/Person.cpp
+
+CMakeFiles/jungle.dir/Person.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/jungle.dir/Person.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mohammad/AP/HW6/Jungle/Person.cpp > CMakeFiles/jungle.dir/Person.cpp.i
+
+CMakeFiles/jungle.dir/Person.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/jungle.dir/Person.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mohammad/AP/HW6/Jungle/Person.cpp -o CMakeFiles/jungle.dir/Person.cpp.s
+
+CMakeFiles/jungle.dir/Employee.cpp.o: CMakeFiles/jungle.dir/flags.make
+CMakeFiles/jungle.dir/Employee.cpp.o: ../Employee.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mohammad/AP/HW6/Jungle/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/jungle.dir/Employee.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/jungle.dir/Employee.cpp.o -c /home/mohammad/AP/HW6/Jungle/Employee.cpp
+
+CMakeFiles/jungle.dir/Employee.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/jungle.dir/Employee.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mohammad/AP/HW6/Jungle/Employee.cpp > CMakeFiles/jungle.dir/Employee.cpp.i
+
+CMakeFiles/jungle.dir/Employee.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/jungle.dir/Employee.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mohammad/AP/HW6/Jungle/Employee.cpp -o CMakeFiles/jungle.dir/Employee.cpp.s
+
+CMakeFiles/jungle.dir/Boss.cpp.o: CMakeFiles/jungle.dir/flags.make
+CMakeFiles/jungle.dir/Boss.cpp.o: ../Boss.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mohammad/AP/HW6/Jungle/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/jungle.dir/Boss.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/jungle.dir/Boss.cpp.o -c /home/mohammad/AP/HW6/Jungle/Boss.cpp
+
+CMakeFiles/jungle.dir/Boss.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/jungle.dir/Boss.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mohammad/AP/HW6/Jungle/Boss.cpp > CMakeFiles/jungle.dir/Boss.cpp.i
+
+CMakeFiles/jungle.dir/Boss.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/jungle.dir/Boss.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mohammad/AP/HW6/Jungle/Boss.cpp -o CMakeFiles/jungle.dir/Boss.cpp.s
+
+CMakeFiles/jungle.dir/Company.cpp.o: CMakeFiles/jungle.dir/flags.make
+CMakeFiles/jungle.dir/Company.cpp.o: ../Company.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mohammad/AP/HW6/Jungle/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/jungle.dir/Company.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/jungle.dir/Company.cpp.o -c /home/mohammad/AP/HW6/Jungle/Company.cpp
+
+CMakeFiles/jungle.dir/Company.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/jungle.dir/Company.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mohammad/AP/HW6/Jungle/Company.cpp > CMakeFiles/jungle.dir/Company.cpp.i
+
+CMakeFiles/jungle.dir/Company.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/jungle.dir/Company.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mohammad/AP/HW6/Jungle/Company.cpp -o CMakeFiles/jungle.dir/Company.cpp.s
+
 # Object files for target jungle
 jungle_OBJECTS = \
 "CMakeFiles/jungle.dir/main.cpp.o" \
 "CMakeFiles/jungle.dir/Animal.cpp.o" \
 "CMakeFiles/jungle.dir/WildAnimal.cpp.o" \
 "CMakeFiles/jungle.dir/DomesticAnimal.cpp.o" \
-"CMakeFiles/jungle.dir/Jungle.cpp.o"
+"CMakeFiles/jungle.dir/Jungle.cpp.o" \
+"CMakeFiles/jungle.dir/Pet.cpp.o" \
+"CMakeFiles/jungle.dir/Address.cpp.o" \
+"CMakeFiles/jungle.dir/Person.cpp.o" \
+"CMakeFiles/jungle.dir/Employee.cpp.o" \
+"CMakeFiles/jungle.dir/Boss.cpp.o" \
+"CMakeFiles/jungle.dir/Company.cpp.o"
 
 # External object files for target jungle
 jungle_EXTERNAL_OBJECTS =
@@ -158,9 +242,15 @@ jungle: CMakeFiles/jungle.dir/Animal.cpp.o
 jungle: CMakeFiles/jungle.dir/WildAnimal.cpp.o
 jungle: CMakeFiles/jungle.dir/DomesticAnimal.cpp.o
 jungle: CMakeFiles/jungle.dir/Jungle.cpp.o
+jungle: CMakeFiles/jungle.dir/Pet.cpp.o
+jungle: CMakeFiles/jungle.dir/Address.cpp.o
+jungle: CMakeFiles/jungle.dir/Person.cpp.o
+jungle: CMakeFiles/jungle.dir/Employee.cpp.o
+jungle: CMakeFiles/jungle.dir/Boss.cpp.o
+jungle: CMakeFiles/jungle.dir/Company.cpp.o
 jungle: CMakeFiles/jungle.dir/build.make
 jungle: CMakeFiles/jungle.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/mohammad/AP/HW6/Jungle/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX executable jungle"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/mohammad/AP/HW6/Jungle/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Linking CXX executable jungle"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/jungle.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
