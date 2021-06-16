@@ -143,6 +143,33 @@ jungle/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/jungle.dir/build.make CMakeFiles/jungle.dir/build
 .PHONY : jungle/fast
 
+Address.o: Address.cpp.o
+
+.PHONY : Address.o
+
+# target to build an object file
+Address.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/jungle.dir/build.make CMakeFiles/jungle.dir/Address.cpp.o
+.PHONY : Address.cpp.o
+
+Address.i: Address.cpp.i
+
+.PHONY : Address.i
+
+# target to preprocess a source file
+Address.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/jungle.dir/build.make CMakeFiles/jungle.dir/Address.cpp.i
+.PHONY : Address.cpp.i
+
+Address.s: Address.cpp.s
+
+.PHONY : Address.s
+
+# target to generate assembly for a file
+Address.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/jungle.dir/build.make CMakeFiles/jungle.dir/Address.cpp.s
+.PHONY : Address.cpp.s
+
 Animal.o: Animal.cpp.o
 
 .PHONY : Animal.o
@@ -169,6 +196,60 @@ Animal.s: Animal.cpp.s
 Animal.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/jungle.dir/build.make CMakeFiles/jungle.dir/Animal.cpp.s
 .PHONY : Animal.cpp.s
+
+Boss.o: Boss.cpp.o
+
+.PHONY : Boss.o
+
+# target to build an object file
+Boss.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/jungle.dir/build.make CMakeFiles/jungle.dir/Boss.cpp.o
+.PHONY : Boss.cpp.o
+
+Boss.i: Boss.cpp.i
+
+.PHONY : Boss.i
+
+# target to preprocess a source file
+Boss.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/jungle.dir/build.make CMakeFiles/jungle.dir/Boss.cpp.i
+.PHONY : Boss.cpp.i
+
+Boss.s: Boss.cpp.s
+
+.PHONY : Boss.s
+
+# target to generate assembly for a file
+Boss.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/jungle.dir/build.make CMakeFiles/jungle.dir/Boss.cpp.s
+.PHONY : Boss.cpp.s
+
+Company.o: Company.cpp.o
+
+.PHONY : Company.o
+
+# target to build an object file
+Company.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/jungle.dir/build.make CMakeFiles/jungle.dir/Company.cpp.o
+.PHONY : Company.cpp.o
+
+Company.i: Company.cpp.i
+
+.PHONY : Company.i
+
+# target to preprocess a source file
+Company.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/jungle.dir/build.make CMakeFiles/jungle.dir/Company.cpp.i
+.PHONY : Company.cpp.i
+
+Company.s: Company.cpp.s
+
+.PHONY : Company.s
+
+# target to generate assembly for a file
+Company.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/jungle.dir/build.make CMakeFiles/jungle.dir/Company.cpp.s
+.PHONY : Company.cpp.s
 
 DomesticAnimal.o: DomesticAnimal.cpp.o
 
@@ -197,6 +278,33 @@ DomesticAnimal.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/jungle.dir/build.make CMakeFiles/jungle.dir/DomesticAnimal.cpp.s
 .PHONY : DomesticAnimal.cpp.s
 
+Employee.o: Employee.cpp.o
+
+.PHONY : Employee.o
+
+# target to build an object file
+Employee.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/jungle.dir/build.make CMakeFiles/jungle.dir/Employee.cpp.o
+.PHONY : Employee.cpp.o
+
+Employee.i: Employee.cpp.i
+
+.PHONY : Employee.i
+
+# target to preprocess a source file
+Employee.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/jungle.dir/build.make CMakeFiles/jungle.dir/Employee.cpp.i
+.PHONY : Employee.cpp.i
+
+Employee.s: Employee.cpp.s
+
+.PHONY : Employee.s
+
+# target to generate assembly for a file
+Employee.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/jungle.dir/build.make CMakeFiles/jungle.dir/Employee.cpp.s
+.PHONY : Employee.cpp.s
+
 Jungle.o: Jungle.cpp.o
 
 .PHONY : Jungle.o
@@ -223,6 +331,33 @@ Jungle.s: Jungle.cpp.s
 Jungle.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/jungle.dir/build.make CMakeFiles/jungle.dir/Jungle.cpp.s
 .PHONY : Jungle.cpp.s
+
+Person.o: Person.cpp.o
+
+.PHONY : Person.o
+
+# target to build an object file
+Person.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/jungle.dir/build.make CMakeFiles/jungle.dir/Person.cpp.o
+.PHONY : Person.cpp.o
+
+Person.i: Person.cpp.i
+
+.PHONY : Person.i
+
+# target to preprocess a source file
+Person.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/jungle.dir/build.make CMakeFiles/jungle.dir/Person.cpp.i
+.PHONY : Person.cpp.i
+
+Person.s: Person.cpp.s
+
+.PHONY : Person.s
+
+# target to generate assembly for a file
+Person.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/jungle.dir/build.make CMakeFiles/jungle.dir/Person.cpp.s
+.PHONY : Person.cpp.s
 
 Pet.o: Pet.cpp.o
 
@@ -314,15 +449,30 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... jungle"
+	@echo "... Address.o"
+	@echo "... Address.i"
+	@echo "... Address.s"
 	@echo "... Animal.o"
 	@echo "... Animal.i"
 	@echo "... Animal.s"
+	@echo "... Boss.o"
+	@echo "... Boss.i"
+	@echo "... Boss.s"
+	@echo "... Company.o"
+	@echo "... Company.i"
+	@echo "... Company.s"
 	@echo "... DomesticAnimal.o"
 	@echo "... DomesticAnimal.i"
 	@echo "... DomesticAnimal.s"
+	@echo "... Employee.o"
+	@echo "... Employee.i"
+	@echo "... Employee.s"
 	@echo "... Jungle.o"
 	@echo "... Jungle.i"
 	@echo "... Jungle.s"
+	@echo "... Person.o"
+	@echo "... Person.i"
+	@echo "... Person.s"
 	@echo "... Pet.o"
 	@echo "... Pet.i"
 	@echo "... Pet.s"

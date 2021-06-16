@@ -6,6 +6,7 @@
 
 #IncludeRegexTransform: 
 
+<<<<<<< HEAD
 /home/mohammad/AP/HW6/Jungle/Animal.h
 
 /home/mohammad/AP/HW6/Jungle/DomesticAnimal.h
@@ -23,10 +24,48 @@ Animal.h
 /home/mohammad/AP/HW6/Jungle/WildAnimal.h
 Animal.h
 /home/mohammad/AP/HW6/Jungle/Animal.h
-
-/home/mohammad/AP/HW6/Jungle/main.cpp
+=======
+/home/mohammad/AP/HW6/Jungle/Address.h
 iostream
 -
+string
+-
+
+/home/mohammad/AP/HW6/Jungle/Boss.h
+Employee.h
+/home/mohammad/AP/HW6/Jungle/Employee.h
+iostream
+-
+
+/home/mohammad/AP/HW6/Jungle/Company.cpp
+Company.h
+/home/mohammad/AP/HW6/Jungle/Company.h
+fstream
+-
+cstring
+-
+
+/home/mohammad/AP/HW6/Jungle/Company.h
+Boss.h
+/home/mohammad/AP/HW6/Jungle/Boss.h
+iostream
+-
+
+/home/mohammad/AP/HW6/Jungle/Employee.h
+iostream
+-
+Person.h
+/home/mohammad/AP/HW6/Jungle/Person.h
+>>>>>>> master
+
+/home/mohammad/AP/HW6/Jungle/Person.h
+string
+-
+Address.h
+/home/mohammad/AP/HW6/Jungle/Address.h
+iostream
+-
+<<<<<<< HEAD
 Jungle.h
 /home/mohammad/AP/HW6/Jungle/Jungle.h
 WildAnimal.h
@@ -35,4 +74,6 @@ DomesticAnimal.h
 /home/mohammad/AP/HW6/Jungle/DomesticAnimal.h
 Pet.h
 /home/mohammad/AP/HW6/Jungle/Pet.h
+=======
+>>>>>>> master
 

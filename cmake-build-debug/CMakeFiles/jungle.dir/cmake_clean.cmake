@@ -1,7 +1,12 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/jungle.dir/Address.cpp.o"
   "CMakeFiles/jungle.dir/Animal.cpp.o"
+  "CMakeFiles/jungle.dir/Boss.cpp.o"
+  "CMakeFiles/jungle.dir/Company.cpp.o"
   "CMakeFiles/jungle.dir/DomesticAnimal.cpp.o"
+  "CMakeFiles/jungle.dir/Employee.cpp.o"
   "CMakeFiles/jungle.dir/Jungle.cpp.o"
+  "CMakeFiles/jungle.dir/Person.cpp.o"
   "CMakeFiles/jungle.dir/Pet.cpp.o"
   "CMakeFiles/jungle.dir/WildAnimal.cpp.o"
   "CMakeFiles/jungle.dir/main.cpp.o"
