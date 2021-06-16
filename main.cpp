@@ -1,14 +1,54 @@
 #include <iostream>
-#include "Animal.h"
 #include "Company.h"
+#include "Jungle.h"
+#include "WildAnimal.h"
+#include "DomesticAnimal.h"
+#include "Pet.h"
+
 using namespace std;
 
 int main() {
-/*    int num;
+    int num;
+    cout << "-----------------------------///| 2 Type Animal |///-----------------------------\n";
     cout << "Please enter the number of animals: ";
     cin >> num;
-    Animal array_animal[num];
-    cout << array_animal[0].getX();*/
+    Jungle jangal(num);
+    for (int i = 0; i < num / 2; i++) {
+        jangal.AddAnimal(new WildAnimal);
+    }
+    for (int i = num / 2; i < num; i++) {
+        jangal.AddAnimal(new DomesticAnimal);
+    }
+    for (int i = 0; i < 1000; i++) {
+        jangal.movement();
+    }
+    cout << jangal.getTotalFall();
+
+    cout << "\n-----------------------------///| 3 Type Animal |///-----------------------------\n";
+
+    cout << "Please enter the number of animals: ";
+    cin >> num;
+    Jungle jangal1(num);
+    for (int i = 0; i < num / 3; i++) {
+        jangal1.AddAnimal(new WildAnimal);
+    }
+    for (int i = num / 3; i < num * 2 / 3; i++) {
+        jangal1.AddAnimal(new DomesticAnimal);
+    }
+
+    for (int i = num * 2 / 3; i < num; i++) {
+        jangal1.AddAnimal(new Pet);
+    }
+
+    for (int i = 0; i < 1000; i++) {
+        jangal.movement();
+    }
+
+    cout << jangal.getTotalFall();
+    cout << endl;
+    cout << "===================================================\n";
+
+    // ==================================== Company Project
 
     // hire employees
     Employee **employees = new Employee*[10];
@@ -46,7 +86,4 @@ int main() {
     cout << pedareKhob;
 
     pedareKhob.write_file();
-
-
-    return 0;
 }

@@ -33,10 +33,13 @@ CMakeFiles/jungle.dir/Jungle.cpp.o: ../Animal.h
 CMakeFiles/jungle.dir/Jungle.cpp.o: ../Jungle.cpp
 CMakeFiles/jungle.dir/Jungle.cpp.o: ../Jungle.h
 
+<<<<<<< HEAD
+=======
 CMakeFiles/jungle.dir/Person.cpp.o: ../Address.h
 CMakeFiles/jungle.dir/Person.cpp.o: ../Person.cpp
 CMakeFiles/jungle.dir/Person.cpp.o: ../Person.h
 
+>>>>>>> master
 CMakeFiles/jungle.dir/Pet.cpp.o: ../Animal.h
 CMakeFiles/jungle.dir/Pet.cpp.o: ../Pet.cpp
 CMakeFiles/jungle.dir/Pet.cpp.o: ../Pet.h
@@ -47,9 +50,16 @@ CMakeFiles/jungle.dir/WildAnimal.cpp.o: ../WildAnimal.h
 
 CMakeFiles/jungle.dir/main.cpp.o: ../Address.h
 CMakeFiles/jungle.dir/main.cpp.o: ../Animal.h
+<<<<<<< HEAD
+CMakeFiles/jungle.dir/main.cpp.o: ../DomesticAnimal.h
+CMakeFiles/jungle.dir/main.cpp.o: ../Jungle.h
+CMakeFiles/jungle.dir/main.cpp.o: ../Pet.h
+CMakeFiles/jungle.dir/main.cpp.o: ../WildAnimal.h
+=======
 CMakeFiles/jungle.dir/main.cpp.o: ../Boss.h
 CMakeFiles/jungle.dir/main.cpp.o: ../Company.h
 CMakeFiles/jungle.dir/main.cpp.o: ../Employee.h
 CMakeFiles/jungle.dir/main.cpp.o: ../Person.h
+>>>>>>> master
 CMakeFiles/jungle.dir/main.cpp.o: ../main.cpp
 

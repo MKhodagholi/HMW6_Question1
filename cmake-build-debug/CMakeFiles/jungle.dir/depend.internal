@@ -33,10 +33,13 @@ CMakeFiles/jungle.dir/Jungle.cpp.o
  /home/mohammad/AP/HW6/Jungle/Animal.h
  /home/mohammad/AP/HW6/Jungle/Jungle.cpp
  /home/mohammad/AP/HW6/Jungle/Jungle.h
+<<<<<<< HEAD
+=======
 CMakeFiles/jungle.dir/Person.cpp.o
  /home/mohammad/AP/HW6/Jungle/Address.h
  /home/mohammad/AP/HW6/Jungle/Person.cpp
  /home/mohammad/AP/HW6/Jungle/Person.h
+>>>>>>> master
 CMakeFiles/jungle.dir/Pet.cpp.o
  /home/mohammad/AP/HW6/Jungle/Animal.h
  /home/mohammad/AP/HW6/Jungle/Pet.cpp
@@ -48,8 +51,15 @@ CMakeFiles/jungle.dir/WildAnimal.cpp.o
 CMakeFiles/jungle.dir/main.cpp.o
  /home/mohammad/AP/HW6/Jungle/Address.h
  /home/mohammad/AP/HW6/Jungle/Animal.h
+<<<<<<< HEAD
+ /home/mohammad/AP/HW6/Jungle/DomesticAnimal.h
+ /home/mohammad/AP/HW6/Jungle/Jungle.h
+ /home/mohammad/AP/HW6/Jungle/Pet.h
+ /home/mohammad/AP/HW6/Jungle/WildAnimal.h
+=======
  /home/mohammad/AP/HW6/Jungle/Boss.h
  /home/mohammad/AP/HW6/Jungle/Company.h
  /home/mohammad/AP/HW6/Jungle/Employee.h
  /home/mohammad/AP/HW6/Jungle/Person.h
+>>>>>>> master
  /home/mohammad/AP/HW6/Jungle/main.cpp

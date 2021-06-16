@@ -6,6 +6,25 @@
 
 #IncludeRegexTransform: 
 
+<<<<<<< HEAD
+/home/mohammad/AP/HW6/Jungle/Animal.h
+
+/home/mohammad/AP/HW6/Jungle/DomesticAnimal.h
+Animal.h
+/home/mohammad/AP/HW6/Jungle/Animal.h
+
+/home/mohammad/AP/HW6/Jungle/Jungle.h
+Animal.h
+/home/mohammad/AP/HW6/Jungle/Animal.h
+
+/home/mohammad/AP/HW6/Jungle/Pet.h
+Animal.h
+/home/mohammad/AP/HW6/Jungle/Animal.h
+
+/home/mohammad/AP/HW6/Jungle/WildAnimal.h
+Animal.h
+/home/mohammad/AP/HW6/Jungle/Animal.h
+=======
 /home/mohammad/AP/HW6/Jungle/Address.h
 iostream
 -
@@ -37,6 +56,7 @@ iostream
 -
 Person.h
 /home/mohammad/AP/HW6/Jungle/Person.h
+>>>>>>> master
 
 /home/mohammad/AP/HW6/Jungle/Person.h
 string
@@ -45,4 +65,15 @@ Address.h
 /home/mohammad/AP/HW6/Jungle/Address.h
 iostream
 -
+<<<<<<< HEAD
+Jungle.h
+/home/mohammad/AP/HW6/Jungle/Jungle.h
+WildAnimal.h
+/home/mohammad/AP/HW6/Jungle/WildAnimal.h
+DomesticAnimal.h
+/home/mohammad/AP/HW6/Jungle/DomesticAnimal.h
+Pet.h
+/home/mohammad/AP/HW6/Jungle/Pet.h
+=======
+>>>>>>> master
 
