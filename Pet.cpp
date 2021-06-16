@@ -4,5 +4,5 @@
 Pet::Pet() : Animal() {}
 
 void Pet::fall() {
-    std::cout << " **** Pet Animal fell ****" << std::endl;
+    std::cout << " ---- Pet Animal fell ----" << std::endl;
 }

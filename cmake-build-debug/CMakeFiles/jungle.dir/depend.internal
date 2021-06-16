@@ -12,10 +12,18 @@ CMakeFiles/jungle.dir/Jungle.cpp.o
  /home/mohammad/AP/HW6/Jungle/Animal.h
  /home/mohammad/AP/HW6/Jungle/Jungle.cpp
  /home/mohammad/AP/HW6/Jungle/Jungle.h
+CMakeFiles/jungle.dir/Pet.cpp.o
+ /home/mohammad/AP/HW6/Jungle/Animal.h
+ /home/mohammad/AP/HW6/Jungle/Pet.cpp
+ /home/mohammad/AP/HW6/Jungle/Pet.h
 CMakeFiles/jungle.dir/WildAnimal.cpp.o
  /home/mohammad/AP/HW6/Jungle/Animal.h
  /home/mohammad/AP/HW6/Jungle/WildAnimal.cpp
  /home/mohammad/AP/HW6/Jungle/WildAnimal.h
 CMakeFiles/jungle.dir/main.cpp.o
  /home/mohammad/AP/HW6/Jungle/Animal.h
+ /home/mohammad/AP/HW6/Jungle/DomesticAnimal.h
+ /home/mohammad/AP/HW6/Jungle/Jungle.h
+ /home/mohammad/AP/HW6/Jungle/Pet.h
+ /home/mohammad/AP/HW6/Jungle/WildAnimal.h
  /home/mohammad/AP/HW6/Jungle/main.cpp

@@ -6,41 +6,19 @@
 
 #IncludeRegexTransform: 
 
-/home/mohammad/AP/HW6/Jungle/Animal.cpp
-iostream
--
-cmath
--
-Animal.h
 /home/mohammad/AP/HW6/Jungle/Animal.h
-
-/home/mohammad/AP/HW6/Jungle/Animal.h
-
-/home/mohammad/AP/HW6/Jungle/DomesticAnimal.cpp
-iostream
--
-DomesticAnimal.h
-/home/mohammad/AP/HW6/Jungle/DomesticAnimal.h
 
 /home/mohammad/AP/HW6/Jungle/DomesticAnimal.h
 Animal.h
 /home/mohammad/AP/HW6/Jungle/Animal.h
 
-/home/mohammad/AP/HW6/Jungle/Jungle.cpp
-iostream
--
-Jungle.h
-/home/mohammad/AP/HW6/Jungle/Jungle.h
-
 /home/mohammad/AP/HW6/Jungle/Jungle.h
 Animal.h
 /home/mohammad/AP/HW6/Jungle/Animal.h
 
-/home/mohammad/AP/HW6/Jungle/WildAnimal.cpp
-iostream
--
-WildAnimal.h
-/home/mohammad/AP/HW6/Jungle/WildAnimal.h
+/home/mohammad/AP/HW6/Jungle/Pet.h
+Animal.h
+/home/mohammad/AP/HW6/Jungle/Animal.h
 
 /home/mohammad/AP/HW6/Jungle/WildAnimal.h
 Animal.h
@@ -49,6 +27,12 @@ Animal.h
 /home/mohammad/AP/HW6/Jungle/main.cpp
 iostream
 -
-Animal.h
-/home/mohammad/AP/HW6/Jungle/Animal.h
+Jungle.h
+/home/mohammad/AP/HW6/Jungle/Jungle.h
+WildAnimal.h
+/home/mohammad/AP/HW6/Jungle/WildAnimal.h
+DomesticAnimal.h
+/home/mohammad/AP/HW6/Jungle/DomesticAnimal.h
+Pet.h
+/home/mohammad/AP/HW6/Jungle/Pet.h
 
